@@ -34,7 +34,6 @@ public class InventoryDatabase {
         writer.start();
 
         ArrayList<Thread> readThread = getThreads(random, database);
-
         long startTime = System.currentTimeMillis();
         for (Thread thread: readThread) {
             thread.start();

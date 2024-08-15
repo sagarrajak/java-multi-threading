@@ -18,7 +18,6 @@ class StorePrime {
     }
 
     public synchronized void addItem(double item) {
-//        System.out.println(item);
         lst.add(item);
     }
 
